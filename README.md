@@ -12,8 +12,6 @@ An intelligent, end-to-end geospatial machine learning system designed to comput
 
 ## 📌 Architecture Overview
 
-![System Architecture](gg.excalidraw.png)
-
 The system is designed with a multi-stage modular pipeline:
 1. **Data Ingestion Layer**: Aggregates real-world historical disaster telemetry (`data/disasterIND.csv`) with spatial static terrain, demographic, and infrastructure indices.
 2. **Preprocessing & Quality Assurance**: Outlier trimming using Interquartile Range (IQR) and multicollinearity elimination via Variance Inflation Factor (VIF) filtering.
