@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints & autosaves
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE & Code Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Environment variables, credentials & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Logs & temporary files
+*.log
+*.tmp
+*.bak
+temp/
+tmp/
+
+# Model checkpoints & historical training runs
+# Keep only the primary deployment bundle (risk_model_latest.joblib)
+models/risk_model_[0-9]*.joblib
+models/*.pkl
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.onnx
+!models/risk_model_latest.joblib
